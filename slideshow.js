@@ -170,3 +170,14 @@ class Slideshow {
 }
 
 const slideshow = new Slideshow(document.querySelector('.slideshow'));
+
+
+var swiper = new Swiper('.swiper2', {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: '.swiper2-pagination',
+      clickable: true,
+    },
+  });
