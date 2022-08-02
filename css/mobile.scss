@@ -39,7 +39,20 @@ body {
       object-fit: cover;
     }
   }
+  .s3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 7.14285714vw;
   
+    &__banner {
+      width: 82.8571428571vw;
+      height: 28.5714286vw;
+      margin: 0 auto 0 auto;
+      border-radius: 0.714285714vw;
+      object-fit: cover;
+    }
+  }
   .swiper {
     width: 82.8571428571vw;
     height: 125vw;
