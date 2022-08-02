@@ -2,7 +2,6 @@ import Swiper from "swiper";
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
-    spaceBetween: 30,
     loop: true,
     loopFillGroupWithBlank: true,
 
@@ -15,5 +14,24 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-
+    breakpoints: {
+      // when window width is >= 320px
+      100: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      500: {
+        slidesPerView: 3,
+        spaceBetween: 50
+      },
+      700: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      },
+      // when window width is >= 640px
+      1000: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
   });
