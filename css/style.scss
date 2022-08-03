@@ -4,22 +4,38 @@
   
     &__banner {
       height: 28.5714286vw;
+      border-radius: 0.714285714vw;
     }
   }
 
   .s2 {
-  
+    margin-top: 7.14285714vw;
+
     &__banner {
       height: 28.5714286vw;
+      border-radius: 0.714285714vw;
     }
   }
   
+  .s3 {
+    margin-top: 7.14285714vw;
+
+    &__banner {
+      height: 28.5714286vw;
+      border-radius: 0.714285714vw;
+    }
+  }
+
   .swiper {
     height: 28vw;
   }
   
   .swiper-slide {
     height: 28vw;
-    
+    border-radius: 0.714285714vw;
+
+    img {
+      border-radius: 0.714285714vw;
+    }
   }
 }
