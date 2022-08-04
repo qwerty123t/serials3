@@ -7,7 +7,25 @@ function vw(v) {
 }
 
 
-new Glide('.glide', { 
+// new Glide('.glide', { 
+//   type: 'carousel',
+//   autoplay: 3000,
+//   perView: 4,
+//   gap: `${vw(2.85714286)}`,
+//   breakpoints: {
+//     700: {
+//       perView: 1,
+//       peek: {
+//         before: 0,
+//         after: `${vw(8.5714286)}vw`
+//       }
+//     }
+//   }
+// }).mount()
+
+
+const sliders = document.querySelectorAll('.glide')
+const conf = {
   type: 'carousel',
   autoplay: 3000,
   perView: 4,
@@ -21,6 +39,7 @@ new Glide('.glide', {
       }
     }
   }
-}).mount()
-
-
+}
+sliders.forEach(item => {
+  new Glide(item, conf).mount()
+})

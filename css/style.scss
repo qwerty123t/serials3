@@ -1,7 +1,8 @@
 @media (min-width: 700px) {
 
   .s1 {
-  
+    align-items: center;
+
     &__banner {
       height: 28.5714286vw;
       border-radius: 0.714285714vw;
@@ -9,6 +10,7 @@
   }
 
   .s2 {
+    align-items: center;
     margin-top: 7.14285714vw;
 
     &__banner {
