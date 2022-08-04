@@ -44,7 +44,7 @@ body {
   .s3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     width: 100%;
     margin-top: 17.14285714vw;
     padding-bottom: 17.14285714vw;
@@ -83,17 +83,19 @@ body {
 
   .glide {
     width: 82.8571428571vw;
+    width: 91.4285714vw;
     margin-top: 5vw;
   }
 
   .glide__slide {
     width: 82.8571428571vw;
-    height: 125vw;
+    height: 126vw;
 
     img {
       width: 100%;
       height: 100%;
       border-radius: 1.714285714vw;
+      object-fit: cover;
     }
   }
   
